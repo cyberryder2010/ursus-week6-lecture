@@ -11,13 +11,13 @@ Welcome to Week 6, where we explore JavaScript with the jQuery library for DOM m
 1. document ready - we leverage `$(document).ready()` to ensure that all of our DOM content has loaded
     - What happens if we try to grab an element with `$('#jsAddFruit')` outside of our `readyNow` function?
 
-    ```js
-    console.log($('#jsAddFruit'));
+        ```js
+        console.log($('#jsAddFruit'));
 
-    function readyNow() {
-      console.log($('#jsAddFruit'));
-    }
-    ```
+        function readyNow() {
+          console.log($('#jsAddFruit'));
+        }
+        ```
 
 1. event listeners - waits for an event / action to happen (like a button click) and then calls to an event handler function
 
@@ -30,9 +30,9 @@ Welcome to Week 6, where we explore JavaScript with the jQuery library for DOM m
 
 1. event handlers - a function that responds to or handles the execution of an event / action then performs some task based on that action
 
-  ```js
-  // EVENT HANDLER
-  function clickAddFruit(event) {
-    console.log('Clicked Stuff');
-  }
-  ```
+    ```js
+    // EVENT HANDLER
+    function clickAddFruit(event) {
+      console.log('Clicked Stuff');
+    }
+    ```
