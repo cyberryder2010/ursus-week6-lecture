@@ -1,4 +1,4 @@
-# Ursus Week 4 Live Session
+# Ursus Week 6 Live Session
 
 Welcome to Week 6, where we explore JavaScript with the jQuery library for DOM manipulation. We went over how to source jQuery into your project, what it means for the `document` to be ready, and how we interact with elements.
 
