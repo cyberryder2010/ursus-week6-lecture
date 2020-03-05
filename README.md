@@ -1,14 +1,12 @@
 # Ursus Week 4 Live Session
 
-Welcome to Week 4 where we explore JavaScript functions. We went over functions and how to use them in our code and the benefits that they give us.
+Welcome to Week 6, where we explore JavaScript with the jQuery library for DOM manipulation. We went over how to source jQuery into your project, what it means for the `document` to be ready, and how we interact with elements.
 
 **JavaScript Topics:**
 
-1. using `function`s
-    1. function declaration - much like a variable declaration this is where we inform JS that there is a function we are going to use
-    1. parameters (a.k.a. params) - defining values that will be passed to the function when called
-    1. arguments - the values that are passed to a function when the function is called, `doSomething('clean')`
-    1. `return` - allows a function to give a return some kind of value when a function  is called
-1. difference between a function declaration, `function doAllThings() {}`, and a function call, `doAllThings()`.
-1. hoisting
-1. scope
+1. sourcing in jQuery
+  1. physical file
+  1. CDN source
+1. document ready
+1. event listeners
+1. event handlers
