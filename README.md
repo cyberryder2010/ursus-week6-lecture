@@ -31,4 +31,8 @@ Welcome to Week 6, where we explore JavaScript with the jQuery library for DOM m
 1. event handlers - a function that responds to or handles the execution of an event / action then performs some task based on that action
 
   ```js
+  // EVENT HANDLER
+  function clickAddFruit(event) {
+    console.log('Clicked Stuff');
+  }
   ```
